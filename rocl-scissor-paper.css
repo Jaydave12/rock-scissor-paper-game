@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4D-REdvoDtDv7Gj1-e9bpGzAnM1tU_hNEw&usqp=CAU);
+    background-size: cover;
+    user-select: none;
+}
+.GAME{
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid red;
+    color:white;
+    background:linear-gradient(25deg, indigo,red, orange, yellow);
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    
+    
+    
+}
+.name{
+    width: 500px;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+}
+#hh1{
+    text-shadow: 5px 5px green;
+    font-size: 50px;
+    margin-left: 60px;
+}
+#hh2{
+    text-shadow: 5px 5px green;
+    font-size: 50px;
+    margin-right: 60px;
+}
+
+    
+
+
+.score{
+    margin-top: 100px;
+    margin-left: 10px;
+    padding: 20px;
+    width: 400px;
+    height: 50px;
+
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+}
+#comp{
+    font-size: 50px;
+    margin-right:30px;
+}
+#you{
+font-size: 50px;
+    margin-left: 50px;
+}
+
+.logo{
+    gap: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 0px;
+}
+#img2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+#img3{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+#img1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+img:hover{
+    border: 5px solid black;
+    cursor: pointer;
+} 
+.result{
+    
+    position: static;
+    width: 200px;
+    height: 100px;
+    justify-content: center;
+    display:flex;
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    color: black;
+    margin-left: 150px;
+
+    border-radius: 20px 0 20px 0;
+ font-size: 30px;
+ background-repeat: no-repeat;
+ object-fit: cover;
+ z-index: 1;
+  }
+
+
+
+img{
+    width: 300px;
+}
+#img12{
+width: 100px;
+height: 100px;
+object-fit: cover;
+background-size: cover;
+visibility: hidden;
+}   
+
+
+
+
+
+
+
